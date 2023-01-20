@@ -1,7 +1,7 @@
 export const data = [
 	{
 		to: '/',
-		text: 'Informacion',
+		text: 'Inicio',
 	},
 	{
 		to: '/pricing',
@@ -9,6 +9,6 @@ export const data = [
 	},
 	{
 		to: '/signup',
-		text: 'Contacte nos',
+		text: 'Contacto',
 	},
 ];
