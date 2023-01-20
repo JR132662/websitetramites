@@ -7,6 +7,12 @@ export const FeatureTitle = styled.h2`
 	line-height: 1.06;
 	letter-spacing: 0.4rem;
 	margin: auto;
+	color: blue;
+	
+	@keyframes fadeinside {
+		0% { opacity: 0; }
+		100% { opacity: 1; }
+	  }
 `;
 
 export const FeatureTextWrapper = styled.div`
