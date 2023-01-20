@@ -9,13 +9,13 @@ const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const FeaturesData = [
 	{
-		name: 'Best Security',
+		name: 'Asilo',
 		description: 'We offer the best data security to our clients, which makes us stand out',
 		icon: iconStyle(BsFillShieldLockFill),
 		imgClass: 'one',
 	},
 	{
-		name: 'Ease of Use',
+		name: 'Permiso de Trabajo',
 		description: 'Our system is easy to use and integrate',
 		icon: iconStyle(IoIosOptions),
 		imgClass: 'two',
@@ -27,21 +27,20 @@ export const FeaturesData = [
 		imgClass: 'three',
 	},
 	{
-		name: '24/7 Support',
+		name: 'Miedo Creible',
 		description: 'Our team is available at all times in case you need us',
 		icon: iconStyle(BiSupport),
 		imgClass: 'four',
 	},
 	{
-		name: 'Price',
+		name: 'Residencia',
 		description: 'We offer the highest value/cost ratio',
 		icon: iconStyle(BiDollar),
 		imgClass: 'five',
 	},
 	{
-		name: 'Scalable',
-		description:
-			'Our servers are located all over the world, therefore improving scalability and speed ',
+		name: 'Visa',
+		description:'Our servers are located all over the world, therefore improving scalability and speed ',
 		icon: iconStyle(AiOutlineCloudUpload),
 		imgClass: 'six',
 	},
