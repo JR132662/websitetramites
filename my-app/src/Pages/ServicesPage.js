@@ -1,9 +1,13 @@
 import React from 'react'
+import Services from '../Components/Services/Services'
 
 function ServicesPage() {
   return (
-    <div>ServicesPage</div>
-  )
-}
+    <>
+    <Services />
+    </>
+   )
+ }
 
-export default ServicesPage
+ export default ServicesPage
+

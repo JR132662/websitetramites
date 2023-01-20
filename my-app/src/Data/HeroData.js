@@ -1,6 +1,6 @@
 export const heroOne = {
-	reverse: true,
-	inverse: true,
+	reverse: false,
+	inverse: false,
 	topLine: {
 		text: 'Founded in 2012',
 	},
@@ -13,8 +13,8 @@ export const heroOne = {
 };
 
 export const heroTwo = {
-	reverse: false,
-	inverse: false,
+	reverse: true,
+	inverse: true,
 	topLine: {
 		text: 'Designed & Developed',
 	},
@@ -29,8 +29,8 @@ export const heroTwo = {
 };
 
 export const heroThree = {
-	reverse: true,
-	inverse: true,
+	reverse: false,
+	inverse: false,
 	topLine: {
 		text: 'Highly reputed brand',
 	},

@@ -8,7 +8,7 @@ export const data = [
 		text: 'Servicios',
 	},
 	{
-		to: '/signup',
+		to: '/Contact',
 		text: 'Contacto',
 	},
 ];

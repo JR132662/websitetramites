@@ -11,7 +11,7 @@ const Hero = () => {
       <Container>
         <MainHeading2>5 ESTRELLAS TRAMITES</MainHeading2>
         <ButtonWrapper>
-        <HeroButton>LLAMAR AHORA</HeroButton>
+        <HeroButton>LLAMA AHORA</HeroButton>
         </ButtonWrapper>
     </Container>
     </HeroSection>

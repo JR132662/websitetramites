@@ -38,10 +38,9 @@ export default function Navbar () {
 			scrollTo(id);
 		}
 
-		history.push(to);
+		history(to);
 		setShow(false);
 	};
-
 	return (
 		<IconContext.Provider value={{ color: 'white' }}>
 			<Nav>

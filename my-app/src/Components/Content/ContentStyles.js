@@ -65,7 +65,7 @@ export const TopLine = styled(motion.div)`
 	font-weight: 550;
 	letter-spacing: 1.4px;
 	margin-bottom: 1.3rem;
-	color: #979797;
+	color: white;
 `;
 
 export const Img = styled(motion.img)`
@@ -115,13 +115,13 @@ export const ContentButton = styled(motion.button)`
 	padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
 	font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
 	outline: none;
-	border: 2px solid ${({ inverse }) => (inverse ? '#0c4577' : 'white')};
+	border: 2px solid ${({ inverse }) => (inverse ? 'blue' : 'white')};
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
 
 	&:before {
-		background: ${({ inverse }) => (inverse ? '#0c4577' : 'white')};
+		background: ${({ inverse }) => (inverse ? 'blue' : 'white')};
 		content: '';
 		position: absolute;
 		top: 50%;
