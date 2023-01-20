@@ -3,11 +3,13 @@ import Hero from '../Components/Hero/Hero'
 import Features from '../Components/Features/Features'
 import { Content } from '../Components/Content/Content';
 import { heroOne, heroTwo, heroThree } from '../Data/HeroData';
+import Services from '../Components/Services/Services';
 
 function Home() {
   return (
     <>
     <Hero />
+    <Services />
     <Features />
     <Content {...heroOne} />
 			<Content {...heroTwo} />

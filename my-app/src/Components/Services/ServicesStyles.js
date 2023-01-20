@@ -5,7 +5,7 @@ export const ServicesSection = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background: #101522;
+	background: blue;
 `;
 
 export const ServicesWrapper = styled.div`
@@ -50,7 +50,7 @@ export const ServicesCard = styled.div`
 `;
 
 export const ServicesCardInfo = styled.div`
-	background: #242424;
+	background: white;
 	box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
 	width: 280px;
 	text-decoration: none;
@@ -60,7 +60,7 @@ export const ServicesCardInfo = styled.div`
 	display: flex;
 	flex-direction: column;
 	padding: 24px;
-	color: #fff;
+	color: black;
 	margin: auto;
 	> button {
 		margin-top: auto;

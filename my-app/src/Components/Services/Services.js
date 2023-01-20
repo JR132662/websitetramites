@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Heading, TextWrapper } from '../../GlobalStyles';
+import { Button, Heading2, TextWrapper } from '../../GlobalStyles';
 import { IconContext } from 'react-icons/lib';
 import {
 	ServicesSection,
@@ -20,7 +20,7 @@ function Services() {
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 			<ServicesSection id="Services">
 				<ServicesWrapper>
-					<Heading>Pick Your Best Option</Heading>
+					<Heading2>Servicios disponibles</Heading2>
 					<TextWrapper
 						mb="1.4rem"
 						weight="600"

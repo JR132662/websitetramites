@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-import { AiOutlineCloudUpload } from 'react-icons/ai';
 import { RiFilePaperFill } from 'react-icons/ri';
-import { FaHandsHelping } from 'react-icons/fa';
+import { FaPassport, FaHandsHelping } from 'react-icons/fa';
 import { GiBlackFlag } from 'react-icons/gi';
 import { FaHome } from 'react-icons/fa';
 import { MdDangerous } from 'react-icons/md';
+
 
 
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
@@ -45,7 +45,7 @@ export const FeaturesData = [
 	{
 		name: 'Visa',
 		description:'Our servers are located all over the world, therefore improving scalability and speed ',
-		icon: iconStyle(AiOutlineCloudUpload),
+		icon: iconStyle(FaPassport),
 		imgClass: 'six',
 	},
 ];

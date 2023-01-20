@@ -7,7 +7,7 @@ export const FeatureTitle = styled.h2`
 	line-height: 1.06;
 	letter-spacing: 0.4rem;
 	margin: auto;
-	color: blue;
+	color: black;
 	
 	@keyframes fadeinside {
 		0% { opacity: 0; }

@@ -4,10 +4,6 @@ export const data = [
 		text: 'Inicio',
 	},
 	{
-		to: '/pricing',
-		text: 'Servicios',
-	},
-	{
 		to: '/Contact',
 		text: 'Contacto',
 	},
