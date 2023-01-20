@@ -43,12 +43,12 @@ export default function Navbar () {
 	};
 
 	return (
-		<IconContext.Provider value={{ color: 'limegreen' }}>
+		<IconContext.Provider value={{ color: 'white' }}>
 			<Nav>
 				<NavbarContainer>
 					<NavLogo to="/">
 						<NavIcon src="./assets/logo.png" alt="logo" />
-						<h3 color='limegreen'>5ESTRELLAS</h3>
+						<h3>5ESTRELLAS</h3>
 					</NavLogo>
 					<MobileIcon onClick={handleClick}>
 						{show ? <FaTimes /> : <CgMenuRight />}

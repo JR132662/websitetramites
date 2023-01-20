@@ -30,12 +30,12 @@ export const MainHeading = styled.h1`
 export const MainHeading2 = styled.h1`
 	font-size: clamp(2.3rem, 6vw, 4.5rem);
 	margin-bottom: 2rem;
-	color: ${({ inverse }) => (inverse ? '$403ae3' : 'limegreen')};
+	color: ${({ inverse }) => (inverse ? '$403ae3' : 'white')};
 	width: 100%;
 	letter-spacing: 4px;
 	text-align: center;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-    border: 5px solid limegreen
+    text-shadow: 0 0 3px black, 0 0 5px black;
+    border: 3px solid white;
 `;
 export const Heading = styled.h2`
 	font-size: clamp(1.3rem, 13vw, 3.1rem);
@@ -110,11 +110,11 @@ export const Column = styled.div`
 
 export const Button = styled.button`
 	border-radius: 4px;
-	background: limegreen;
+	background: white;
 	white-space: nowrap;
 	padding: 10px 80px;
 	font-size: 16px;
-	color: #fff;
+	color: black;
 	outline: white;
 	border: 2px solid #fff;
 	cursor: pointer;
