@@ -43,7 +43,6 @@ export const MainHeading2 = styled.h1`
 	margin-bottom: 2rem;
 	color: ${({ inverse }) => (inverse ? '$403ae3' : 'white')};
 	width: 100%;
-	letter-spacing: 4px;
 	text-align: center;
     text-shadow: 0 0 3px black, 0 0 5px black;
     border: 3px solid white;

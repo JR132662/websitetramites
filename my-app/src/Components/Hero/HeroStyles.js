@@ -53,3 +53,15 @@ export const HeroButton = styled(Button)`
 	}
     border: 1px solid white;
 `;
+export const HeroDiv = styled.div`
+	display: flex;
+	@media screen and (max-width: 960px) {
+		padding: 0 30px;
+	}
+`;
+export const HeroDiv2 = styled.div`
+@media screen and (max-width: 960px) {
+	padding: 0 30px;
+	display: inline-flex;
+}
+`;

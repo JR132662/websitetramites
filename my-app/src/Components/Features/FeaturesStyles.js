@@ -47,8 +47,9 @@ export const FeatureColumn= styled.div`
 	padding: 10px;
 	box-shadow: 0 0 32px 8px #d0d0d0;
 	border-radius: 20px;
+	border: 1.8px solid black;
 	&:hover {
-		transform: scale(1.06);
+		transform: scale(1.09);
 		transition: all 0.3s ease-out;
 	}
 `;
