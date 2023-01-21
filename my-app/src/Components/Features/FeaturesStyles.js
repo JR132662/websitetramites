@@ -37,7 +37,8 @@ export const FeatureWrapper = styled.div`
 	}
 `;
 
-export const FeatureColumn = styled(motion.div)`
+
+export const FeatureColumn= styled.div`
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
@@ -46,7 +47,12 @@ export const FeatureColumn = styled(motion.div)`
 	padding: 10px;
 	box-shadow: 0 0 32px 8px #d0d0d0;
 	border-radius: 20px;
+	&:hover {
+		transform: scale(1.06);
+		transition: all 0.3s ease-out;
+	}
 `;
+	
 
 export const FeatureImageWrapper = styled.div`
 	margin-bottom: 1rem;
