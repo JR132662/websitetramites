@@ -121,7 +121,7 @@ export const ContentButton = styled(motion.button)`
 	overflow: hidden;
 
 	&:before {
-		background: ${({ inverse }) => (inverse ? 'blue' : 'white')};
+		background: ${({ inverse }) => (inverse ? 'red' : 'white')};
 		content: '';
 		position: absolute;
 		top: 50%;

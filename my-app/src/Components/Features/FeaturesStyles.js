@@ -42,7 +42,7 @@ export const FeatureColumn = styled(motion.div)`
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-	background: #f3f3f3;
+	background: rgba(8, 89, 217, 0.6);
 	padding: 10px;
 	box-shadow: 0 0 32px 8px #d0d0d0;
 	border-radius: 20px;
@@ -59,6 +59,7 @@ export const FeatureName = styled.h3`
 	font-weight: 600;
 	font-size: 1.3rem;
 	letter-spacing: 2px;
+	color: white;
 
 	@media screen and (max-width: 768px) {
 		font-weight: 400;
@@ -72,7 +73,7 @@ export const FeatureText = styled.p`
 	font-size: 0.9rem;
 	line-height: 1.73;
 	letter-spacing: 0.5px;
-	color: #626881;
+	color: white;
 
 	@media screen and (max-width: 768px) {
 		display: none;
