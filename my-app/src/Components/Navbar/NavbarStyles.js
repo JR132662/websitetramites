@@ -108,7 +108,7 @@ export const NavLinks = styled.span`
 	height: 100%;
 
 	&:hover {
-		color:blue ;
+		color: black ;
 		transition: all 0.3s ease;
 	}
 

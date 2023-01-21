@@ -49,7 +49,7 @@ export const HeroButton = styled(Button)`
 	}
 
 	&:hover {
-		color: blue;
+		color:rgba(8, 89, 217, 0.6);;
 	}
     border: 1px solid white;
 `;

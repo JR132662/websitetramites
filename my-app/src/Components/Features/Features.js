@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Section } from '../../GlobalStyles'
+import { Container, Section, Button } from '../../GlobalStyles'
 import {
 	FeatureText,
 	FeatureTitle,
@@ -40,6 +40,7 @@ const Features = () => {
 							</FeatureImageWrapper>
 							<FeatureName>{el.name}</FeatureName>
 							<FeatureText>{el.description}</FeatureText>
+							<Button>Empieza aqui</Button>
 						</FeatureColumn>
 					))}
 				</FeatureWrapper>

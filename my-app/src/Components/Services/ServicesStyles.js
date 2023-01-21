@@ -101,7 +101,7 @@ export const ServicesCardFeatures = styled.ul`
 	list-style: none;
 	display: flex;
 	flex-direction: column;
-	color: #a9b3c1;
+	color: black;
 `;
 
 export const ServicesCardFeature = styled.li`

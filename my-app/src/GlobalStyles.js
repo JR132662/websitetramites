@@ -6,7 +6,6 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Bebas Neue', cursive;
-    font-family: 'Sofia Sans', sans-serif;
 }`;
 
 
@@ -15,6 +14,17 @@ export const Container = styled.div`
 	max-width: 1300px;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 0 50px;
+	@media screen and (max-width: 960px) {
+		padding: 0 30px;
+	}
+`;
+export const Container3 = styled.div`
+	width: 100%;
+	max-width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex
 	padding: 0 50px;
 	@media screen and (max-width: 960px) {
 		padding: 0 30px;
@@ -73,7 +83,7 @@ export const TextWrapper = styled.span`
 export const Section = styled.section`
 	padding: ${({ padding }) => (padding ? padding : '140px 0')};
 	margin: ${({ margin }) => (margin ? margin : '')};
-	background: ${({ inverse }) => (inverse ? 'white' : 'blue')};
+	background: ${({ inverse }) => (inverse ? 'white' : 'rgba(8, 89, 217, 0.6);')};
 	position: ${({ position }) => (position ? position : '')};
 	width: ${({ width }) => (width ? width : 'auto')};
 	min-width: ${({ minWidth }) => (minWidth ? minWidth : 'auto')};
@@ -149,7 +159,7 @@ export const Button = styled.button`
 		height: 500%;
 	}
 	&:hover {
-		color: white;
+		color: rgba(8, 89, 217, 0.6);
 	}
 `;
 

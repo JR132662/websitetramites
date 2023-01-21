@@ -6,7 +6,6 @@ export const ServicesData = [
 	},
 	{
 		title: 'Asilo',
-		numAcc: '50-500 accounts',
 		features: [
 			'Secure accounts',
 			'Best for small business',
@@ -17,7 +16,6 @@ export const ServicesData = [
 	},
 	{
 		title: 'Visa',
-		numAcc: '50-1000 accounts',
 		features: [
 			'Secure accounts',
 			'Best for small business',
@@ -30,7 +28,10 @@ export const ServicesData = [
 
 	{
 		title: 'Permiso de trabajo',
-		numAcc: '1000+ Accounts',
-		features: ['Unlimited Storage', 'Scalability', 'Free DNS & Domain'],
+		features: [
+		'Te asistemos en tu aplicacion de permiso de trabajo para los estados unidos'
+		, 'Aplicacion es rapido'
+		, 'Seguro Y Economico'
+	],
 	},
 ];
