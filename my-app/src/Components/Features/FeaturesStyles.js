@@ -43,7 +43,7 @@ export const FeatureColumn= styled.div`
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-	background: rgba(8, 89, 217, 0.6);
+	background: #B31942;
 	padding: 10px;
 	box-shadow: 0 0 32px 8px #d0d0d0;
 	border-radius: 20px;
@@ -59,7 +59,6 @@ export const FeatureImageWrapper = styled.div`
 	margin-bottom: 1rem;
 	border-radius: 50%;
 	border: 2px solid #000;
-
 	padding: 30px;
 `;
 export const FeatureName = styled.h3`
