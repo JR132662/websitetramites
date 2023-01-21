@@ -20,7 +20,7 @@ function Services() {
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 			<ServicesSection id="Services">
 				<ServicesWrapper>
-					<Heading2>Servicios disponibles</Heading2>
+					<Heading2>Servicios Disponibles</Heading2>
 					<TextWrapper
 						mb="1.4rem"
 						weight="600"
@@ -28,7 +28,7 @@ function Services() {
 						color="white"
 						align="center"
 					>
-						Create, maintain and store your data with Delta.
+						Ayudamos con todos tipos de tramites de inmigracion
 					</TextWrapper>
 					<ServicesContainer>
 						{ServicesData.map((card, index) => (

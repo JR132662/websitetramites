@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Sofia Sans', sans-serif;
 }`;
 
+
 export const Container = styled.div`
 	width: 100%;
 	max-width: 1300px;
@@ -54,7 +55,6 @@ export const Heading2 = styled.h2`
 	margin-bottom: ${({ mb }) => (mb ? mb : '')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
 	color: ${({ inverse }) => (inverse ? '$403ae3' : 'white')};
-	letter-spacing: 0.4rem;
 	line-height: 1.06;
 	text-align: center;
 	width: ${({ width }) => (width ? width : '100%')};

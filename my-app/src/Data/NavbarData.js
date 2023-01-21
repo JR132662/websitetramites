@@ -7,4 +7,8 @@ export const data = [
 		to: '/Contact',
 		text: 'Contacto',
 	},
+	{
+		to: '/Services',
+		text: 'Servicios',
+	},
 ];

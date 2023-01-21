@@ -9,8 +9,8 @@ function Home() {
   return (
     <>
     <Hero />
-    <Services />
     <Features />
+    <Services />
     <Content {...heroOne} />
 			<Content {...heroTwo} />
 			<Content {...heroThree} />

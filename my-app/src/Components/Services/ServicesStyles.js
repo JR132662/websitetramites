@@ -5,7 +5,7 @@ export const ServicesSection = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background: blue;
+	background: rgba(8, 89, 217, 0.6);
 `;
 
 export const ServicesWrapper = styled.div`
