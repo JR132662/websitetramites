@@ -7,7 +7,7 @@ import { HeroVideo, HeroSection, HeroButton,  ButtonWrapper, HeroDiv, HeroDiv2} 
 const Hero = () => {
   return (
     <HeroSection>
-      <HeroVideo autoPlay muted loop src="./assets/hero.mp4"/>
+      <HeroVideo src="./assets/flag.jpg" autoPlay muted loop/>
       <HeroDiv>
         <Container>
           <MainHeading2>5 ESTRELLAS TRAMITES</MainHeading2>
