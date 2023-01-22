@@ -44,3 +44,19 @@ export const heroThree = {
 	img: './assets/svg/ChartUp.svg',
 	start: 'true',
 };
+export const heroFour = {
+	reverse: false,
+	inverse: false,
+	topLine: {
+		text: 'Agenda una cita online',
+	},
+	headline: 'Estamos aqui para ayudar ',
+	description:
+		'mas de 5 anos de experencia ',
+	buttonLabel: 'Agendar Cita!',
+
+	linkTo: '/download',
+	imgStart: '',
+	img: './assets/svg/People.svg',
+	start: 'true',
+};

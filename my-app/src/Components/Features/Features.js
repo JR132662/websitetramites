@@ -11,6 +11,8 @@ import {
 } from './FeaturesStyles';
 import { FeaturesData } from '../../Data/FeaturesData';
 
+
+
 const Features = () => {
 	const initial = {
 		y: 40,
@@ -25,6 +27,7 @@ const Features = () => {
 		<Section smPadding="50px 10px" position="relative" inverse id="about">
 			<Container>
 				<FeatureTextWrapper>
+					<FeatureTitle>305-632-4462</FeatureTitle>
 					<FeatureTitle>Que ofrecemos?</FeatureTitle>
 				</FeatureTextWrapper>
 				<FeatureWrapper>

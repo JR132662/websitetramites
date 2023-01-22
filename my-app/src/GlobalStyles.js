@@ -160,8 +160,8 @@ export const Button = styled.button`
 	padding: 10px 80px;
 	font-size: 16px;
 	color: black;
-	outline: white;
-	border: 2px solid #fff;
+	outline: black;
+	border: 2px solid black;
 	cursor: pointer;
 	overflow: hidden;
 	position: relative;
