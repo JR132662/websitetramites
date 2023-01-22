@@ -28,7 +28,7 @@ const Features = () => {
 			<Container>
 				<FeatureTextWrapper>
 					<FeatureTitle>305-632-4462</FeatureTitle>
-					<FeatureTitle>Que ofrecemos?</FeatureTitle>
+					<FeatureTitle>Servicios que ofrecemos</FeatureTitle>
 				</FeatureTextWrapper>
 				<FeatureWrapper>
 					{FeaturesData.map((el, index) => (
