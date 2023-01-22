@@ -19,6 +19,16 @@ export const Container = styled.div`
 		padding: 0 30px;
 	}
 `;
+export const Container4 = styled.div`
+	width: 100%;
+	max-width: 1300px;
+	margin: auto;
+	align-items:center;
+	padding: 0 50px;
+	@media screen and (max-width: 960px) {
+		padding: 0 30px;
+	}
+`;
 export const Container3 = styled.div`
 	width: 100%;
 	max-width: 1300px;
@@ -94,7 +104,21 @@ export const Section = styled.section`
 		padding: ${({ smPadding }) => (smPadding ? smPadding : '70px 0')};
 	}
 `;
-
+export const Section3 = styled.section`
+	padding: ${({ padding }) => (padding ? padding : '140px 0')};
+	margin: auto;
+	background: ${({ inverse }) => (inverse ? 'white' : '#0A3161')};
+	position: ${({ position }) => (position ? position : '')};
+	width: ${({ width }) => (width ? width : 'auto')};
+	min-width: ${({ minWidth }) => (minWidth ? minWidth : 'auto')};
+	max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : 'auto')};
+	height: ${({ height }) => (height ? height : 'auto')};
+	max-height: ${({ maxHeight }) => (maxHeight ? maxHeight : 'auto')};
+	min-height: ${({ minHeight }) => (minHeight ? minHeight : 'auto')};
+	@media screen and (max-width: 768px) {
+		padding: ${({ smPadding }) => (smPadding ? smPadding : '70px 0')};
+	}
+`;
 export const Row = styled.div`
 	display: flex;
 	justify-content: ${({ justify }) => (justify ? justify : '')};

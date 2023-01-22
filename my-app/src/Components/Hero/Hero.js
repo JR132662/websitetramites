@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container,  MainHeading2,Heading2 } from '../../GlobalStyles';
-import { HeroVideo, HeroSection, HeroButton,  ButtonWrapper, HeroDiv, HeroDiv2} from './HeroStyles';
+import { HeroVideo, HeroSection, HeroButton,  ButtonWrapper, HeroDiv} from './HeroStyles';
 
 
 
