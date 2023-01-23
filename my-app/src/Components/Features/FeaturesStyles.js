@@ -58,7 +58,7 @@ export const FeatureColumn= styled.div`
 export const FeatureImageWrapper = styled.div`
 	margin-bottom: 1rem;
 	border-radius: 50%;
-	border: 2px solid #000;
+	border: 2px solid white;
 	padding: 30px;
 `;
 export const FeatureName = styled.h3`

@@ -9,7 +9,7 @@ import { MdDangerous } from 'react-icons/md';
 
 
 
-const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
+const iconStyle = (Icon) => <Icon size="3rem" color="white" />;
 
 export const FeaturesData = [
 	{

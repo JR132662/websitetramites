@@ -52,7 +52,7 @@ export const heroFour = {
 	},
 	headline: 'Estamos aqui para ayudar ',
 	description:
-		'mas de 5 anos de experencia ',
+		'Somos una compañía dedicada a la preparación de trámites migratorios, aplicación de ley de ajuste cubano, permisos de trabajo, aplicación de residencia, entre otros. Somos un grupo de profesionales capacitados en organizar, preparar y adjuntar las carpetas migratorias , traducirlas y notarizarlas. Ofrecemos contenido de calidad, oficina de atención pública y una plataforma digital para la gestión total de sus servicios.',
 	buttonLabel: 'Agendar Cita!',
 
 	linkTo: '/download',
