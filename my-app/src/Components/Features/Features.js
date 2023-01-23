@@ -8,6 +8,7 @@ import {
 	FeatureImageWrapper,
 	FeatureName,
 	FeatureTextWrapper,
+	FeatureTitle2,
 } from './FeaturesStyles';
 import { FeaturesData } from '../../Data/FeaturesData';
 
@@ -27,8 +28,8 @@ const Features = () => {
 		<Section smPadding="50px 10px" position="relative" inverse id="about">
 			<Container>
 				<FeatureTextWrapper>
-					<FeatureTitle>305-632-4462</FeatureTitle>
-					<FeatureTitle>Servicios que ofrecemos</FeatureTitle>
+					<FeatureTitle2>305-632-4462</FeatureTitle2>
+					<FeatureTitle>Servicios de Inmigracion</FeatureTitle>
 				</FeatureTextWrapper>
 				<FeatureWrapper>
 					{FeaturesData.map((el, index) => (

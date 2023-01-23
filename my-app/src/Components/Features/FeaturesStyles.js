@@ -14,6 +14,18 @@ export const FeatureTitle = styled.h2`
 		100% { opacity: 1; }
 	  }
 `;
+export const FeatureTitle2 = styled.h2`
+	text-align: center;
+	font-size: clamp(1.3rem, 13vw, 3.1rem);
+	line-height: 1.06;
+	margin: auto;
+	color: black;
+	
+	@keyframes fadeinside {
+		0% { opacity: 0; }
+		100% { opacity: 1; }
+	  }
+`;
 
 export const FeatureTextWrapper = styled.div`
 	position: relative;
