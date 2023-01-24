@@ -56,7 +56,7 @@ export const FeatureColumn= styled.div`
 	justify-content: center;
 	align-items: center;
 	background-color: transparent;
-    background-image: linear-gradient(240deg, #CD1516 0%, #1D6ECE 100%);
+	background-image: linear-gradient(240deg, #CD1516 0%, #1D6ECE 100%);
     border-style: solid;
 	padding: 10px;
 	box-shadow: 0 0 32px 8px #d0d0d0;

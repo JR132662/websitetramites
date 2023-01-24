@@ -5,7 +5,7 @@ export const FormSection = styled.div`
 	/* color: #fff; */
 	padding: 160px 0;
 	/* background: ${({ inverse }) => (inverse ? '#101522' : '#fff')}; */
-	background: #101522;
+    background-color: #0A3161;
 `;
 
 export const FormTitle = styled.h1`
@@ -20,7 +20,7 @@ export const FormContainer = styled.div`
 `;
 export const FormColumn = styled.div`
 	/* margin-bottom: 15px; */
-	padding: 50px;
+	padding: 40px;
 	background: white;
 	border: 20px;
 	/* padding: ${({ small }) => (small ? '0 50px' : '0 15px')}; */
@@ -29,7 +29,7 @@ export const FormColumn = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 20px;
+	border-radius: 10px;
 	flex-direction: column;
 	@media screen and (max-width: 768px) {
 		max-width: 100% !important;

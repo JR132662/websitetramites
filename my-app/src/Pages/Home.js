@@ -5,6 +5,7 @@ import { Content } from '../Components/Content/Content';
 import { heroOne, heroTwo, heroThree, heroFour } from '../Data/HeroData';
 import Services from '../Components/Services/Services';
 import { Content2 } from '../Components/Content copy/Content2';
+import Form from '../Components/Form/Form'
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
     <Content {...heroOne} />
 			<Content {...heroTwo} />
 			<Content {...heroThree} />
+      <Form/>
     </>
     
   )
