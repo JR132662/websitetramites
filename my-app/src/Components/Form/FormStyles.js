@@ -13,6 +13,7 @@ export const FormTitle = styled.h1`
 	font-size: 48px;
 	line-height: 1.1;
 	font-weight: 600;
+    color: White;
 `;
 
 export const FormContainer = styled.div`
@@ -21,7 +22,8 @@ export const FormContainer = styled.div`
 export const FormColumn = styled.div`
 	/* margin-bottom: 15px; */
 	padding: 40px;
-	background: white;
+	background-color: transparent;
+	background-image: linear-gradient(240deg, #CD1516 0%, #1D6ECE 100%);
 	border: 20px;
 	/* padding: ${({ small }) => (small ? '0 50px' : '0 15px')}; */
 	flex: 1;
