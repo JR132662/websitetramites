@@ -14,7 +14,8 @@ export const Nav = styled.nav`
 	top: 0;
 	z-index: 50;
 	width: 100%;
-	background: rgba(8, 89, 217, 0.6);
+	background-color: transparent;
+    background-image: linear-gradient(240deg, #CD1516 0%, #1D6ECE 100%);
 
 	transition: background-color 0.3s ease-in;
 `;

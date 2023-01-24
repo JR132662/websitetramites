@@ -63,7 +63,7 @@ export const FeatureColumn= styled.div`
 	border-radius: 20px;
 	border: 1.8px solid black;
 	&:hover {
-		transform: scale(1.09);
+		transform: scale(1.11);
 		transition: all 0.3s ease-out;
 	}
 `;
