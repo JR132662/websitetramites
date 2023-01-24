@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ServicesSection = styled.div`
-	padding: 160px 0;
+	padding: 60px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
