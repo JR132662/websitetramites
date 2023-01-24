@@ -14,6 +14,7 @@ export const FormTitle = styled.h1`
 	line-height: 1.1;
 	font-weight: 600;
     color: White;
+    
 `;
 
 export const FormContainer = styled.div`
@@ -34,7 +35,7 @@ export const FormColumn = styled.div`
 	border-radius: 10px;
 	flex-direction: column;
 	@media screen and (max-width: 768px) {
-		max-width: 100% !important;
+		max-width: 85% !important;
 		flex-basis: 100%;
 	}
 
