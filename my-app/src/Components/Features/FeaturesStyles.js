@@ -96,6 +96,6 @@ export const FeatureText = styled.p`
 	color: white;
 
 	@media screen and (max-width: 768px) {
-		display: none;
+		display: inline-block;
 	}
 `;
