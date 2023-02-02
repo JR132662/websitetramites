@@ -11,13 +11,14 @@ import {
 	FooterAddress,
 	FooterColumn,
 	FooterGrid,
+	Section2,
 } from './FooterStyles';
 import { footerData, footerSocialData } from '../../Data/FooterData';
-import { Row, Section } from '../../GlobalStyles'
+import { Row } from '../../GlobalStyles'
 
 function Footer() {
 	return (
-		<Section padding="4rem 0 2rem 0">
+		<Section2 padding="4rem 0 2rem 0">
 			<FooterWrapper>
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
@@ -55,7 +56,7 @@ function Footer() {
 				</FooterGrid>
 				<FooterRights></FooterRights>
 			</FooterWrapper>
-		</Section>
+		</Section2>
 	);
 }
 

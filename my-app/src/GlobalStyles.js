@@ -71,7 +71,7 @@ export const Heading = styled.h2`
 export const Heading2 = styled.h2`
 	font-size: clamp(1.3rem, 13vw, 3.1rem);
 	margin: ${({ margin }) => (margin ? margin : '')};
-	margin-bottom: ${({ mb }) => (mb ? mb : '')};
+	margin-bottom: ${({ mb }) => (mb ? mb : '40px')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
 	color: ${({ inverse }) => (inverse ? '$403ae3' : 'white')};
 	line-height: 1.06;
