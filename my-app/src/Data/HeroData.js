@@ -5,7 +5,7 @@ export const heroOne = {
 		text: '305-632-4432',
 	},
 	headline: "Estamos ahi por tu familia 24 horas del dia",
-	description: 'Siempre estamos disponible para agendar citas de aplicaciones de immigracion',
+	description: '"Estamos aquí para servirle las 24 horas del día, los 7 días de la semana. Nos esforzamos por brindar un servicio excepcional y estar disponibles en cualquier momento que lo necesite. ¡Nuestro compromiso es con su comodidad y satisfacción!"',
 	buttonLabel: 'Contacto',
 	imgStart: 'start',
 	img: './assets/104.jpg',
@@ -18,8 +18,8 @@ export const heroTwo = {
 	topLine: {
 		text: 'Negocio facil y rapido',
 	},
-	headline: 'Tenemos experencia con todo las aplicaciones necesarias por la imigracion.',
-	description: 'nuestros clientes dicen que es un placer hacer negocio juntos',
+	headline: 'Tenemos experencia con todo las aplicaciones necesarias para la imigracion.',
+	description: '"En nuestra empresa, nos esforzamos por hacer que cada transacción sea fácil y rápida. Con un equipo altamente capacitado y un proceso simplificado, aseguramos una experiencia sin complicaciones para todos nuestros clientes. Desde el inicio hasta el final, nos aseguramos de que cada detalle sea manejado con eficiencia y profesionalismo para garantizar una transacción suave y satisfactoria."',
 	buttonLabel: 'contacto',
 
 	linkTo: '/more',
@@ -34,10 +34,10 @@ export const heroThree = {
 	topLine: {
 		text: 'Highly reputed brand',
 	},
-	headline: 'Why us? ',
+	headline: 'porque 5 Estrellas? ',
 	description:
-		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
-	buttonLabel: 'View Project',
+		'"Somos una empresa de notaría altamente calificada y comprometida con brindar un servicio excepcional a nuestros clientes. Ofrecemos una amplia gama de servicios notariales, incluyendo autenticación de documentos, juramentaciones y otorgamiento de poder. Con años de experiencia y un equipo dedicado, garantizamos un proceso rápido, fácil y sin estrés para todas sus necesidades notariales."',
+	buttonLabel: 'Contacto',
 
 	linkTo: '/download',
 	imgStart: '',
