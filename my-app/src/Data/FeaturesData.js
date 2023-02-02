@@ -9,42 +9,42 @@ import { MdDangerous } from 'react-icons/md';
 
 
 
-const iconStyle = (Icon) => <Icon size="3rem" color="white" />;
+const iconStyle = (Icon) => <Icon size="4rem" color="white" />;
 
 export const FeaturesData = [
 	{
 		name: 'Asilo',
-		description: 'We offer the best data security to our clients, which makes us stand out',
+		description: 'Nosotros ofrecemos ayuda con los tramites de Asilo.',
 		icon: iconStyle(RiFilePaperFill),
 		imgClass: 'one',
 	},
 	{
 		name: 'Permiso de Trabajo',
-		description: 'Our system is easy to use and integrate',
+		description: 'Nosotros ofrecemos ayuda con Permiso de trabajo',
 		icon: iconStyle(FaHandsHelping),
 		imgClass: 'two',
 	},
 	{
 		name: 'Patronizeo',
-		description: 'Our code is written in highest standards, which makes it highly sustainable',
+		description: 'Patronizea tu familiar con 5 estrellas. te ayudmaos traer tu ser querido',
 		icon: iconStyle(GiBlackFlag),
 		imgClass: 'three',
 	},
 	{
 		name: 'Miedo Creible',
-		description: 'Our team is available at all times in case you need us',
+		description: 'Nuestro equipo te ayuda con los tramites de Miedo Creible',
 		icon: iconStyle(MdDangerous),
 		imgClass: 'four',
 	},
 	{
 		name: 'Residencia',
-		description: 'We offer the highest value/cost ratio',
+		description: 'Sabemos como submitir la aplicacion de residencia. tenemos el servicio y precio mejor del mercado',
 		icon: iconStyle(FaHome),
 		imgClass: 'five',
 	},
 	{
 		name: 'Visa',
-		description:'Our servers are located all over the world, therefore improving scalability and speed ',
+		description:'aplica por tu visa con 5 estrellas. tenemos el servicio y precio mejor del mercado',
 		icon: iconStyle(FaPassport),
 		imgClass: 'six',
 	},

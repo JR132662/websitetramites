@@ -13,6 +13,7 @@ export const ServicesWrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 	margin: 0 auto;
+	
 
 	@media screen and (max-width: 960px) {
 		margin: 0 30px;
@@ -56,7 +57,6 @@ export const ServicesCardInfo = styled.div`
 	text-decoration: none;
 	border-radius: 4px;
 	height: 100%;
-
 	display: flex;
 	flex-direction: column;
 	padding: 24px;
@@ -84,6 +84,7 @@ export const ServicesCardInfo = styled.div`
 export const ServicesCardPlan = styled.h3`
 	margin-bottom: 5px;
 	font-size: 2rem;
+	text-align:center;
 `;
 
 export const ServicesCardCost = styled.h4`

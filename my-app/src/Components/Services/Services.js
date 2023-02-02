@@ -17,7 +17,7 @@ import { ServicesData } from '../../Data/ServicesData';
 
 function Services() {
 	return (
-		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
+		<IconContext.Provider value={{ color: 'red', size: '3rem' }}>
 			<ServicesSection id="Services">
 				<ServicesWrapper>
 					<Heading2>Servicios Disponibles</Heading2>
