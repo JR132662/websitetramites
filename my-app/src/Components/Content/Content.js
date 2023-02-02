@@ -25,6 +25,7 @@ export const Content = ({
 	alt,
 	inverse,
 	reverse,
+	headline2
 }) => {
 	const initial = { opacity: 0, y: 30 };
 	const animation = useAnimation();
@@ -46,13 +47,6 @@ export const Content = ({
 				<ContentRow reverse={reverse}>
 					<ContentColumn>
 						<TextWrapper>
-							<TopLine
-								initial={initial}
-								transition={{ delay: 0.3, duration: 0.6 }}
-								animate={animation}
-							>
-								{topLine.text}
-							</TopLine>
 							<Heading
 								initial={initial}
 								transition={{ delay: 0.5, duration: 0.6 }}
@@ -60,6 +54,14 @@ export const Content = ({
 								inverse={inverse}
 							>
 								{headline}
+							</Heading>
+							<Heading
+								initial={initial}
+								transition={{ delay: 0.5, duration: 0.6 }}
+								animate={animation}
+								inverse={inverse}
+							>
+								{headline2}
 							</Heading>
 							<Subtitle
 								initial={initial}

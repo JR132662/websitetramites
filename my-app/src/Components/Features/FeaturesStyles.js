@@ -99,3 +99,15 @@ export const FeatureText = styled.p`
 		display: inline-block;
 	}
 `;
+export const FeatureText5 = styled.p`
+	margin: 1rem 0 auto;
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: 1.73;
+	letter-spacing: 0.5px;
+	color: black;
+
+	@media screen and (max-width: 768px) {
+		display: inline-block;
+	}
+`;

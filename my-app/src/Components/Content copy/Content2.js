@@ -20,6 +20,7 @@ export const Content2 = ({
 	primary,
 	topLine,
 	headline,
+	headline3,
 	description,
 	buttonLabel,
 	img,
@@ -47,13 +48,13 @@ export const Content2 = ({
 				<ContentRow reverse={reverse}>
 					<ContentColumn>
 						<TextWrapper>
-							<TopLine
+							<Heading
 								initial={initial}
 								transition={{ delay: 0.3, duration: 0.6 }}
 								animate={animation}
 							>
-								{topLine.text}
-							</TopLine>
+								{headline3}
+							</Heading>
 							<Heading
 								initial={initial}
 								transition={{ delay: 0.5, duration: 0.6 }}

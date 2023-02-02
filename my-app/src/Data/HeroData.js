@@ -5,6 +5,7 @@ export const heroOne = {
 		text: '305-632-4432',
 	},
 	headline: "Estamos ahi por tu familia 24 horas del dia",
+	headline2: "305-632-4462",
 	description: '"Estamos aquí para servirle las 24 horas del día, los 7 días de la semana. Nos esforzamos por brindar un servicio excepcional y estar disponibles en cualquier momento que lo necesite. ¡Nuestro compromiso es con su comodidad y satisfacción!"',
 	buttonLabel: 'Contacto',
 	imgStart: 'start',
@@ -51,6 +52,7 @@ export const heroFour = {
 		text: 'Agenda una cita online',
 	},
 	headline: 'Estamos aqui para ayudar ',
+	headline3: '305-632-4462 ',
 	description:
 		'Somos una compañía dedicada a la preparación de trámites migratorios, aplicación de ley de ajuste cubano, permisos de trabajo, aplicación de residencia, entre otros. Somos un grupo de profesionales capacitados en organizar, preparar y adjuntar las carpetas migratorias , traducirlas y notarizarlas. Ofrecemos contenido de calidad, oficina de atención pública y una plataforma digital para la gestión total de sus servicios.',
 	buttonLabel: 'Agendar Cita!',

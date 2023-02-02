@@ -20,7 +20,7 @@ function Services() {
 		<IconContext.Provider value={{ color: 'red', size: '3rem' }}>
 			<ServicesSection id="Services">
 				<ServicesWrapper>
-					<Heading2>Servicios Disponibles</Heading2>
+					<Heading2>Servicios Populares</Heading2>
 					<TextWrapper
 						mb="1.4rem"
 						weight="600"
@@ -28,7 +28,7 @@ function Services() {
 						color="white"
 						align="center"
 					>
-						Ayudamos con todos tipos de tramites de inmigracion
+						<p>Ayudamos con todos tipos de tramites de inmigracion</p>
 					</TextWrapper>
 					<ServicesContainer>
 						{ServicesData.map((card, index) => (
