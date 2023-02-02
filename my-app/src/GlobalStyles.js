@@ -74,6 +74,7 @@ export const Heading2 = styled.h2`
 	margin-bottom: ${({ mb }) => (mb ? mb : '40px')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
 	color: ${({ inverse }) => (inverse ? '$403ae3' : 'white')};
+	text-shadow: 0 0 3px black, 0 0 5px black;
 	line-height: 1.06;
 	text-align: center;
 	width: ${({ width }) => (width ? width : '100%')};

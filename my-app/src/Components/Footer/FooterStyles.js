@@ -160,17 +160,18 @@ export const FooterAddress = styled.div`
 	}
 `;
 export const Section2 = styled.section`
-	padding: ${({ padding }) => (padding ? padding : '140px 0')};
-	margin: ${({ margin }) => (margin ? margin : '')};
-	background: ${({ inverse }) => (inverse ? 'white' : '#0A3161')};
-	position: ${({ position }) => (position ? position : '')};
-	width: ${({ width }) => (width ? width : 'auto')};
-	min-width: ${({ minWidth }) => (minWidth ? minWidth : 'auto')};
-	max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : 'auto')};
-	height: ${({ height }) => (height ? height : 'auto')};
-	max-height: ${({ maxHeight }) => (maxHeight ? maxHeight : 'auto')};
-	min-height: ${({ minHeight }) => (minHeight ? minHeight : 'auto')};
-	@media screen and (max-width: 768px) {
+padding: ${({ padding }) => (padding ? padding : '140px 0')};
+margin: ${({ margin }) => (margin ? margin : '')};
+background-color: transparent;
+background-image: linear-gradient(240deg, #CD1516 0%, #1D6ECE 100%);
+position: ${({ position }) => (position ? position : '')};
+width: ${({ width }) => (width ? width : 'auto')};
+min-width: ${({ minWidth }) => (minWidth ? minWidth : 'auto')};
+max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : 'auto')};
+height: ${({ height }) => (height ? height : 'auto')};
+max-height: ${({ maxHeight }) => (maxHeight ? maxHeight : 'auto')};
+min-height: ${({ minHeight }) => (minHeight ? minHeight : 'auto')};
+@media screen and (max-width: 768px) {
 	padding: ${({ smPadding }) => (smPadding ? smPadding : '70px 0')};
 	}
 `;

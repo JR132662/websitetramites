@@ -114,7 +114,6 @@ export const FormImg = styled.img`
 
 export const FormButton = styled.button`
 	border-radius: 4px;
-	background: none;
 	margin-top: 1.5rem;
 	white-space: nowrap;
 	/* color: #fff; */

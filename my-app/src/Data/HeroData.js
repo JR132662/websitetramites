@@ -2,13 +2,13 @@ export const heroOne = {
 	reverse: false,
 	inverse: false,
 	topLine: {
-		text: 'Founded in 2012',
+		text: '305-632-4432',
 	},
-	headline: "We've been in business for 9 years",
-	description: 'We have designed and implemented the best cloud security solutions',
-	buttonLabel: 'Find More',
+	headline: "Estamos ahi por tu familia 24 horas del dia",
+	description: 'Siempre estamos disponible para agendar citas de aplicaciones de immigracion',
+	buttonLabel: 'Contacto',
 	imgStart: 'start',
-	img: './assets/svg/Deal.svg',
+	img: './assets/104.jpg',
 	start: 'true',
 };
 
@@ -16,15 +16,15 @@ export const heroTwo = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Designed & Developed',
+		text: 'Negocio facil y rapido',
 	},
-	headline: 'The best practices',
-	description: 'Our clients have had the best experience working with us',
-	buttonLabel: 'View Project',
+	headline: 'Tenemos experencia con todo las aplicaciones necesarias por la imigracion.',
+	description: 'nuestros clientes dicen que es un placer hacer negocio juntos',
+	buttonLabel: 'contacto',
 
 	linkTo: '/more',
 	imgStart: 'start',
-	img: './assets/svg/Connection.svg',
+	img: './assets/shake.jpg',
 	start: 'true',
 };
 
