@@ -57,6 +57,7 @@ export const HeroDiv = styled.div`
 	display: flex;
 	@media screen and (max-width: 960px) {
 		padding: 0 30px;
+		align-content: center;
 	}
 `;
 export const HeroDiv2 = styled.div`

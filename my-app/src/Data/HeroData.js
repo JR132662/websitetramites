@@ -41,7 +41,7 @@ export const heroThree = {
 
 	linkTo: '/download',
 	imgStart: '',
-	img: './assets/svg/ChartUp.svg',
+	img: './assets/peoples.jpg',
 	start: 'true',
 };
 export const heroFour = {
