@@ -109,9 +109,9 @@ export const ServicesCardFeature = styled.li`
 	margin-bottom: 1rem;
 	display: flex;
 	font-size: 0.94rem;
+	justify-content: center;
 
 	&:before {
-		content: '🎧';
 		margin-right: 0.4rem;
 	}
 `;
