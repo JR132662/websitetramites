@@ -15,8 +15,10 @@ import { Container } from '../../GlobalStyles';
 import validateForm from './validateForm';
 import { MdSettingsPhone } from 'react-icons/md';
 import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 const Form = () => {
+	const form = useRef();
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
 	const [phone, setPhone] = useState('');
@@ -47,12 +49,6 @@ const Form = () => {
 		setSuccess('Application was submitted!');
 	};
 
-	const messageVariants = {
-		hidden: { y: 30, opacity: 0 },
-		animate: { y: 0, opacity: 1, transition: { delay: 0.2, duration: 0.4 } },
-	};
-
-
 	const formData = [
 		{ 
 		name:"User",		
@@ -76,50 +72,71 @@ const Form = () => {
 		
 		
 	];
-	return (
-		<FormSection>
-			<Container>
-				<FormRow>
-					<FormColumn small>
-						<FormTitle>Envia un Mensaje</FormTitle>
-						<FormWrapper onSubmit={handleSubmit}>
-							{formData.map((el, index) => (
-								<FormInputRow key={index}>
-									<FormLabel>{el.label}</FormLabel>
-									<FormInput
-										type={el.type}
-										placeholder={` ${el.label.toLocaleLowerCase()}`}
-										value={el.value}
-										onChange={el.onChange}
-									/>
-								</FormInputRow>
-							))}
-							<FormButton type="submit">Enviar</FormButton>
-						</FormWrapper>
-						{error && (
-							<FormMessage
-								variants={messageVariants}
-								initial="hidden"
-								animate="animate"
-								error
-							>
-								{error}
-							</FormMessage>
-						)}
-						{success && (
-							<FormMessage
-								variants={messageVariants}
-								initial="hidden"
-								animate="animate"
-							>
-								{success}
-							</FormMessage>
-						)}
-					</FormColumn>
-				</FormRow>
-			</Container>
-		</FormSection>
-	);
-};
 
-export default Form;
+	return (
+	<FormSection>
+	  <Container>
+		<FormRow>
+		  <FormColumn>
+			<FormTitle>Enviar Mensaje</FormTitle>
+			{/* <!-- contact form --> */}
+			<FormWrapper ref={form} onSubmit={handleSubmit}>
+			  {/* <!-- name --> */}
+			  <FormInputRow>
+				<FormLabel>Nombre</FormLabel>
+				<FormInput
+				  type="name"
+				  name="name"
+				  class="form-control"
+				  id="name"
+				  placeholder="enter your name"
+				/>
+			  </FormInputRow>
+  
+			  {/* <!-- phone --> */}
+			  <FormInputRow>
+				<FormLabel>Numero de Telefono</FormLabel>
+				<FormInput
+				  type="tel"
+				  name="phone"
+				  class="form-control"
+				  id="phone"
+				  placeholder="Numero de Telefono"
+				/>
+			  </FormInputRow>
+  
+			  {/* <!-- email --> */}
+			  <FormInputRow>
+				<FormLabel>Correo Electronico</FormLabel>
+				<FormInput
+				  type="email"
+				  name="email"
+				  class="form-control"
+				  id="email"
+				  placeholder="Correo Electronico"
+				/>
+			  </FormInputRow>
+  
+			  <FormInputRow>
+				<FormLabel>Message</FormLabel>
+				<FormInput
+				  class="form-control"
+				  name="message"
+				  id="email_body"
+				  rows="5"
+				></FormInput>
+			  </FormInputRow>
+  
+			  <FormButton type="submit" class="btn btn-primary">
+				Submit
+			  </FormButton>
+			</FormWrapper>
+		  </FormColumn>
+		</FormRow>
+	  </Container>
+	</FormSection>
+	);
+  }
+  
+  export default Form;
+  
