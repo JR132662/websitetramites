@@ -13,18 +13,27 @@ import {
 } from './FormStyles';
 import { Container } from '../../GlobalStyles';
 import validateForm from './validateForm';
+import { MdSettingsPhone } from 'react-icons/md';
+import emailjs from '@emailjs/browser';
 
 const Form = () => {
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
-	const [password, setPassword] = useState('');
-	const [confirmPass, setConfirmPass] = useState('');
+	const [phone, setPhone] = useState('');
+	const [message, setMessage] = useState('');
 	const [error, setError] = useState(null);
 	const [success, setSuccess] = useState(null);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		const resultError = validateForm({ name, email, password, confirmPass });
+		const resultError = validateForm({ name, email, phone, message });
+		emailjs.sendForm('service_onmijpu', 'template_n481uuj', e.target, 'oy5ti2Ey8N7FnA54N')
+		.then((result) => {
+			console.log(result.text);
+		}, (error) => {
+			console.log(error.text);
+		});
+		
 
 		if (resultError !== null) {
 			setError(resultError);
@@ -32,8 +41,8 @@ const Form = () => {
 		}
 		setName('');
 		setEmail('');
-		setPassword('');
-		setConfirmPass('');
+		setPhone('');
+		setMessage('');
 		setError(null);
 		setSuccess('Application was submitted!');
 	};
@@ -43,42 +52,49 @@ const Form = () => {
 		animate: { y: 0, opacity: 1, transition: { delay: 0.2, duration: 0.4 } },
 	};
 
+
 	const formData = [
-		{ label: 'Name', value: name, onChange: (e) => setName(e.target.value), type: 'text' },
-		{ label: 'Email', value: email, onChange: (e) => setEmail(e.target.value), type: 'email' },
-		{
-			label: 'Password',
-			value: password,
-			onChange: (e) => setPassword(e.target.value),
-			type: 'password',
-		},
-		{
-			label: 'Confirm Password',
-			value: confirmPass,
-			onChange: (e) => setConfirmPass(e.target.value),
-			type: 'password',
-		},
+		{ 
+		name:"User",		
+		label: 'Name', 
+		value: name,  
+		onChange: (e) => setName(e.target.value),
+		 type: 'text'},
+
+		{ label: 'Email',
+			value: email,
+			onChange: (e) => setEmail(e.target.value),
+				type: 'email'},
+		{ label: 'Phone Number',
+			value: phone,
+			onChange: (e) => setPhone(e.target.value),
+				type: 'tel'},
+		{ label: 'Mande un mensaje',
+			value: message,
+			onChange: (e) => setMessage(e.target.value),
+		type: 'text'},
+		
+		
 	];
 	return (
 		<FormSection>
 			<Container>
 				<FormRow>
 					<FormColumn small>
-						<FormTitle>Sign up</FormTitle>
+						<FormTitle>Envia un Mensaje</FormTitle>
 						<FormWrapper onSubmit={handleSubmit}>
 							{formData.map((el, index) => (
 								<FormInputRow key={index}>
 									<FormLabel>{el.label}</FormLabel>
 									<FormInput
 										type={el.type}
-										placeholder={`Enter your ${el.label.toLocaleLowerCase()}`}
+										placeholder={` ${el.label.toLocaleLowerCase()}`}
 										value={el.value}
 										onChange={el.onChange}
 									/>
 								</FormInputRow>
 							))}
-
-							<FormButton type="submit">Signup</FormButton>
+							<FormButton type="submit">Enviar</FormButton>
 						</FormWrapper>
 						{error && (
 							<FormMessage

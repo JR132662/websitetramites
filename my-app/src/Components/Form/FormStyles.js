@@ -14,6 +14,7 @@ export const FormTitle = styled.h1`
 	line-height: 1.1;
 	font-weight: 600;
     color: White;
+	text-align:center;
     
 `;
 
@@ -96,7 +97,7 @@ export const FormLabel = styled.label`
 	display: inline-block;
 	font-size: 0.9rem;
 	margin-bottom: 0.3rem;
-	color: #afafaf;
+	color: white;
 `;
 export const FormImgWrapper = styled.div`
 	max-width: 555px;
