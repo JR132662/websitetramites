@@ -14,38 +14,38 @@ const iconStyle = (Icon) => <Icon size="4rem" color="white" />;
 export const FeaturesData = [
 	{
 		name: 'Asilo',
-		description: 'Nosotros ofrecemos ayuda con los tramites de Asilo.',
+		description: '¡Gracias por su interés en nuestro servicio de Asilo. Nuestro equipo está disponible para responder cualquier pregunta que tenga y brindarle toda la información necesaria para tomar una decisión informada. ¡No espere más, contáctenos hoy mismo! Estamos aquí para ayudarlo.',
 		icon: iconStyle(RiFilePaperFill),
 		imgClass: 'one',
 	},
 	{
 		name: 'Permiso de Trabajo',
-		description: 'Nosotros ofrecemos ayuda con Permiso de trabajo',
+		description: '¡Gracias por su interés en nuestro servicio de permiso de trabajo . Nuestro equipo está disponible para responder cualquier pregunta que tenga y brindarle toda la información necesaria para tomar una decisión informada. ¡No espere más, contáctenos hoy mismo! Estamos aquí para ayudarlo.',
 		icon: iconStyle(FaHandsHelping),
 		imgClass: 'two',
 	},
 	{
 		name: 'Patronizeo',
-		description: 'Patronizea tu familiar con 5 estrellas. te ayudmaos traer tu ser querido',
+		description: '¡Gracias por su interés en nuestro servicio de Patronizeo. Nuestro equipo está disponible para responder cualquier pregunta que tenga y brindarle toda la información necesaria para tomar una decisión informada. ¡No espere más, contáctenos hoy mismo! Estamos aquí para ayudarlo.',
 		icon: iconStyle(GiBlackFlag),
 		imgClass: 'three',
 	},
 	{
 		name: 'Miedo Creible',
-		description: 'Nuestro equipo te ayuda con los tramites de Miedo Creible',
+		description: '¡Gracias por su interés en nuestro servicio de miedo creible. Nuestro equipo está disponible para responder cualquier pregunta que tenga y brindarle toda la información necesaria para tomar una decisión informada. ¡No espere más, contáctenos hoy mismo! Estamos aquí para ayudarlo.',
 		icon: iconStyle(MdDangerous),
 		imgClass: 'four',
 	},
 	{
 		name: 'Residencia',
-		description: 'Sabemos como submitir la aplicacion de residencia. tenemos el servicio y precio mejor del mercado',
+		description: '¡Gracias por su interés en nuestro servicio de Residencia. Nuestro equipo está disponible para responder cualquier pregunta que tenga y brindarle toda la información necesaria para tomar una decisión informada. ¡No espere más, contáctenos hoy mismo! Estamos aquí para ayudarlo.',
 		icon: iconStyle(FaHome),
 		imgClass: 'five',
 	},
-	{
+	{	
+		name2:'Jona',
 		name: 'Visa',
-		description:'aplica por tu visa con 5 estrellas. tenemos el servicio y precio mejor del mercado',
-		icon: iconStyle(FaPassport),
+		description: '¡Gracias por su interés en nuestro servicio de Visa. Nuestro equipo está disponible para responder cualquier pregunta que tenga y brindarle toda la información necesaria para tomar una decisión informada. ¡No espere más, contáctenos hoy mismo! Estamos aquí para ayudarlo.',
 		imgClass: 'six',
 	},
 ];

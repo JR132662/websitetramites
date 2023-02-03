@@ -13,7 +13,7 @@ function Home() {
     <Hero />
     <Features />
     <Content2 {...heroFour} />
-    <Services />
+    {/* <Services /> */}
     <Content {...heroOne} />
 			<Content {...heroTwo} />
 			<Content {...heroThree} />

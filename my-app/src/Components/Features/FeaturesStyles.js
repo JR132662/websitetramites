@@ -5,7 +5,7 @@ export const FeatureTitle = styled.h2`
 	text-align: center;
 	font-size: clamp(1.3rem, 13vw, 3.1rem);
 	line-height: 1.06;
-	letter-spacing: 0.4rem;
+	letter-spacing: 0.2rem;
 	margin: auto;
 	color: black;
 	
@@ -16,10 +16,10 @@ export const FeatureTitle = styled.h2`
 `;
 export const FeatureTitle2 = styled.h2`
 	text-align: center;
-	font-size: clamp(1.3rem, 13vw, 3.1rem);
+	font-size: clamp(1.5rem, 13vw, 3.1rem);
 	line-height: 1.06;
 	margin: auto;
-	color: black;
+	color: red;
 	
 	@keyframes fadeinside {
 		0% { opacity: 0; }
@@ -77,14 +77,15 @@ export const FeatureImageWrapper = styled.div`
 `;
 export const FeatureName = styled.h3`
 	font-weight: 600;
-	font-size: 1.3rem;
+	font-size: 2rem;
 	letter-spacing: 2px;
 	color: white;
 
 	@media screen and (max-width: 768px) {
 		font-weight: 400;
-		font-size: 1rem;
+		font-size: 5rem;
 		letter-spacing: 1.3px;
+		text-align: center;
 	}
 `;
 export const FeatureText = styled.p`
