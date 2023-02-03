@@ -5,7 +5,7 @@ export const FeatureTitle = styled.h2`
 	text-align: center;
 	font-size: clamp(1.3rem, 13vw, 3.1rem);
 	line-height: 1.06;
-	letter-spacing: 0.2rem;
+	letter-spacing: 0.1rem;
 	margin: auto;
 	color: black;
 	
@@ -95,6 +95,7 @@ export const FeatureText = styled.p`
 	line-height: 1.73;
 	letter-spacing: 0.5px;
 	color: white;
+	text-align: center;
 
 	@media screen and (max-width: 768px) {
 		display: inline-block;
@@ -107,6 +108,7 @@ export const FeatureText5 = styled.p`
 	line-height: 1.73;
 	letter-spacing: 0.5px;
 	color: black;
+	font-weight: bold;
 
 	@media screen and (max-width: 768px) {
 		display: inline-block;
