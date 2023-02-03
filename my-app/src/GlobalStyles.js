@@ -55,7 +55,7 @@ export const MainHeading2 = styled.h1`
 	width: 100%;
 	text-align: center;
     text-shadow: 0 0 3px black, 0 0 5px black;
-    border: 3px solid white;
+    border: 14px groove #CD1516 
 `;
 export const Heading = styled.h2`
 	font-size: clamp(1.3rem, 13vw, 3.1rem);

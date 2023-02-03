@@ -105,6 +105,18 @@ export const Heading = styled(motion.h2)`
 		text-align: center;
 	}
 `;
+export const HeadingPhone = styled(motion.h2)`
+	margin-bottom: 24px;
+	font-size: 3rem;
+	line-height: 1.1;
+	font-weight: 600;
+	color: ${({ inverse }) => (inverse ? '#0c4577' : 'red')};
+
+	@media screen and (max-width: 768px) {
+		text-align: center;
+	}
+`;
+
 
 export const Subtitle = styled(motion.p)`
 	max-width: 440px;

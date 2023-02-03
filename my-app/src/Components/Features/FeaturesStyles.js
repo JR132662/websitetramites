@@ -3,11 +3,15 @@ import { motion } from 'framer-motion';
 
 export const FeatureTitle = styled.h2`
 	text-align: center;
-	font-size: clamp(1.3rem, 13vw, 3.1rem);
+	font-size: clamp(2.3rem, 13vw, 5.1rem);
 	line-height: 1.06;
 	letter-spacing: 0.1rem;
 	margin: auto;
 	color: black;
+
+	@media screen and (max-width: 768px) {
+		font-size: clamp(1.3rem, 13vw, 3.1rem);
+	}
 	
 	@keyframes fadeinside {
 		0% { opacity: 0; }

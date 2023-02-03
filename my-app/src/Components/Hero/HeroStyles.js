@@ -37,7 +37,7 @@ export const ButtonWrapper = styled.div`
 `;
 
 export const HeroButton = styled(Button)`
-	color: black;
+	color: white;
 
 	&:before {
 		background: black;
@@ -49,9 +49,14 @@ export const HeroButton = styled(Button)`
 	}
 
 	&:hover {
-		color:rgba(8, 89, 217, 0.6);;
+		color: red;
 	}
     border: 1px solid white;
+	background-color: transparent;
+    background-image: linear-gradient(240deg, #CD1516 0%, #1D6ECE 100%);
+	@media screen and (max-width: 768px) {
+		font-size: clamp(0.5rem, 13vw, 1.5rem);
+	}
 `;
 export const HeroDiv = styled.div`
 	display: flex;

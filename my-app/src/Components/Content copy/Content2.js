@@ -11,6 +11,7 @@ import {
 	Img,
 	ContentColumn,
 	Section5,
+	HeadingPhone,
 } from './ContentStyles2.js';
 
 import { useInView } from 'react-intersection-observer';
@@ -48,13 +49,13 @@ export const Content2 = ({
 				<ContentRow reverse={reverse}>
 					<ContentColumn>
 						<TextWrapper>
-							<Heading
+							<HeadingPhone
 								initial={initial}
 								transition={{ delay: 0.3, duration: 0.6 }}
 								animate={animation}
 							>
 								{headline3}
-							</Heading>
+							</HeadingPhone>
 							<Heading
 								initial={initial}
 								transition={{ delay: 0.5, duration: 0.6 }}
