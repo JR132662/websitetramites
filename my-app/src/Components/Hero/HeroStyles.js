@@ -54,8 +54,11 @@ export const HeroButton = styled(Button)`
     border: 1px solid white;
 	background-color: transparent;
     background-image: linear-gradient(240deg, #CD1516 0%, #1D6ECE 100%);
+
+	font-size: clamp(0.5rem, 13vw, 1.8rem);
+
 	@media screen and (max-width: 768px) {
-		font-size: clamp(0.5rem, 13vw, 1.5rem);
+		font-size: clamp(1.5rem, 13vw, 1.5rem);
 	}
 `;
 export const HeroDiv = styled.div`

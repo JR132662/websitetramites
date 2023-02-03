@@ -10,7 +10,7 @@ export const FeatureTitle = styled.h2`
 	color: black;
 
 	@media screen and (max-width: 768px) {
-		font-size: clamp(1.3rem, 13vw, 3.1rem);
+		font-size: clamp(0.5rem, 13vw, 3.8rem);
 	}
 	
 	@keyframes fadeinside {
@@ -20,7 +20,7 @@ export const FeatureTitle = styled.h2`
 `;
 export const FeatureTitle2 = styled.h2`
 	text-align: center;
-	font-size: clamp(1.5rem, 13vw, 3.1rem);
+	font-size: clamp(2.5rem, 13vw, 6.1rem);
 	line-height: 1.06;
 	margin: auto;
 	color: red;
@@ -116,5 +116,38 @@ export const FeatureText5 = styled.p`
 
 	@media screen and (max-width: 768px) {
 		display: inline-block;
+	}
+`;
+export const ButtonFeature = styled.button`
+	border-radius: 4px;
+	margin: 5px;
+	background: white;
+	white-space: nowrap;
+	padding: 10px 80px;
+	font-size: 16px;
+	color: black;
+	outline: black;
+	border: 2px solid black;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	&:before {
+		background: #fff;
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: -1;
+		transition: all 0.6s ease;
+		width: 100%;
+		height: 0%;
+		transform: translate(-50%, -50%) rotate(45deg);
+	}
+	&:hover:before {
+		height: 500%;
+	}
+	&:hover {
+		color: rgba(8, 89, 217, 0.6);
 	}
 `;

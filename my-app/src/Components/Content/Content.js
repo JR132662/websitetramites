@@ -14,6 +14,7 @@ import {
 
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
+import { HeroButton } from '../Hero/HeroStyles';
 
 export const Content = ({
 	primary,
@@ -71,7 +72,7 @@ export const Content = ({
 							>
 								{description}
 							</Subtitle>
-							<ContentButton
+							<HeroButton
 								initial={initial}
 								transition={{ delay: 1, duration: 0.6 }}
 								animate={animation}
@@ -79,7 +80,7 @@ export const Content = ({
 								primary={primary}
 							>
 								{buttonLabel}
-							</ContentButton>
+							</HeroButton>
 						</TextWrapper>
 					</ContentColumn>
 					<ContentColumn

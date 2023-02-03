@@ -11,6 +11,7 @@ import {
 	FeatureTextWrapper,
 	FeatureTitle2,
 	FeatureText2,
+	ButtonFeature,
 } from './FeaturesStyles';
 import { FeaturesData } from '../../Data/FeaturesData';
 
@@ -47,7 +48,7 @@ const Features = () => {
 							</FeatureImageWrapper>
 							<FeatureName>{el.name}</FeatureName>
 							<FeatureText>{el.description}</FeatureText>
-							<Button>Contacto</Button>
+							<ButtonFeature>Contacto</ButtonFeature>
 						</FeatureColumn>
 					))}
 				</FeatureWrapper>
