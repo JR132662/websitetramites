@@ -27,6 +27,7 @@ export const FormColumn = styled.div`
 	background-color: transparent;
 	background-image: linear-gradient(240deg, #CD1516 0%, #1D6ECE 100%);
 	border: 20px;
+	border: 15px groove #CD1516;
 	/* padding: ${({ small }) => (small ? '0 50px' : '0 15px')}; */
 	flex: 1;
 	max-width: 60%;
