@@ -127,6 +127,10 @@ export const FormButton = styled.button`
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
+	@media screen and (max-width: 768px) {
+		backgound: white;
+		color: black;
+	}
 
 	&:hover {
 		color: white;

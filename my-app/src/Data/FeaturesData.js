@@ -4,6 +4,7 @@ import React from 'react';
 import { RiFilePaperFill } from 'react-icons/ri';
 import { FaPassport, FaHandsHelping } from 'react-icons/fa';
 import { GiBlackFlag } from 'react-icons/gi';
+import { IoMdBoat } from 'react-icons/io';
 import { FaHome } from 'react-icons/fa';
 import { MdDangerous } from 'react-icons/md';
 
@@ -33,7 +34,7 @@ export const FeaturesData = [
 	{
 		name: 'Miedo Creible',
 		description: '¡Gracias por su interés en nuestro servicio de miedo creible. Nuestro equipo está disponible para responder cualquier pregunta que tenga y brindarle toda la información necesaria para tomar una decisión informada. ¡No espere más, contáctenos hoy mismo! Estamos aquí para ayudarlo.',
-		icon: iconStyle(MdDangerous),
+		icon: iconStyle(IoMdBoat),
 		imgClass: 'four',
 	},
 	{
@@ -46,6 +47,7 @@ export const FeaturesData = [
 		name2:'Jona',
 		name: 'Visa',
 		description: '¡Gracias por su interés en nuestro servicio de Visa. Nuestro equipo está disponible para responder cualquier pregunta que tenga y brindarle toda la información necesaria para tomar una decisión informada. ¡No espere más, contáctenos hoy mismo! Estamos aquí para ayudarlo.',
+		icon: iconStyle(FaPassport),
 		imgClass: 'six',
 	},
 ];

@@ -59,6 +59,6 @@ export const heroFour = {
 
 	linkTo: '/download',
 	imgStart: '',
-	img: './assets/svg/People.svg',
+	img: './assets/Team.png',
 	start: 'true',
 };

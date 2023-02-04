@@ -128,7 +128,7 @@ const Form = () => {
 			  </FormInputRow>
   
 			  <FormButton type="submit" class="btn btn-primary">
-				Submit
+				Enviar
 			  </FormButton>
 			</FormWrapper>
 		  </FormColumn>
