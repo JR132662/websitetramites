@@ -72,6 +72,7 @@ export const Content2 = ({
 							>
 								{description}
 							</Subtitle>
+							<a href="/Contact">
 							<ContentButton
 								initial={initial}
 								transition={{ delay: 1, duration: 0.6 }}
@@ -81,6 +82,7 @@ export const Content2 = ({
 							>
 								{buttonLabel}
 							</ContentButton>
+							</a>
 						</TextWrapper>
 					</ContentColumn>
 					<ContentColumn

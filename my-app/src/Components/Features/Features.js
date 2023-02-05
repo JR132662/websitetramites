@@ -48,7 +48,9 @@ const Features = () => {
 							</FeatureImageWrapper>
 							<FeatureName>{el.name}</FeatureName>
 							<FeatureText>{el.description}</FeatureText>
+							<a href="/Contact">
 							<ButtonFeature>Contacto</ButtonFeature>
+							</a>
 						</FeatureColumn>
 					))}
 				</FeatureWrapper>

@@ -13,7 +13,10 @@ const Hero = () => {
           <MainHeading2>5 ESTRELLAS TRAMITES</MainHeading2>
           <Heading2>Llama ahora para mas informacion</Heading2>
           <ButtonWrapper>
-          <HeroButton>LLAMA AHORA</HeroButton><HeroButton>305-632-4462</HeroButton>
+          <a href='/Contact'>
+          <HeroButton>Contacte nos</HeroButton>
+          </a>
+          <a href="tel://3056324462"><HeroButton>305-632-4462</HeroButton></a>
           </ButtonWrapper>
         </Container>
       </HeroDiv>
