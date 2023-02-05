@@ -31,7 +31,9 @@ const Features = () => {
 		<Section smPadding="50px 10px" position="relative" inverse id="about">
 			<Container>
 				<FeatureTextWrapper>
+					<a href='tel://3056324462'>
 					<FeatureTitle2>305-632-4462</FeatureTitle2>
+					</a>
 					<FeatureTitle>Servicios de Inmigracion</FeatureTitle>
 					<FeatureText5>Si estás buscando asistencia con sus documentos de inmigración, ¡estamos aquí para ayudarlo! Contáctenos para obtener información y ayuda con todos sus requisitos de inmigración. Con años de experiencia y un equipo de expertos, garantizamos un proceso sin estrés y eficiente para todas sus necesidades de documentación de inmigración.</FeatureText5>
 				</FeatureTextWrapper>

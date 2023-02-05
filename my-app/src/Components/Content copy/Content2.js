@@ -49,6 +49,7 @@ export const Content2 = ({
 				<ContentRow reverse={reverse}>
 					<ContentColumn>
 						<TextWrapper>
+							<a href='tel://3056324462'>
 							<HeadingPhone
 								initial={initial}
 								transition={{ delay: 0.3, duration: 0.6 }}
@@ -56,6 +57,7 @@ export const Content2 = ({
 							>
 								{headline3}
 							</HeadingPhone>
+							</a>
 							<Heading
 								initial={initial}
 								transition={{ delay: 0.5, duration: 0.6 }}
